@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class AutomaticInsertData {
+public class  AutomaticInsertData {
     private static Connection connection;
     private static Statement stmt;
     public static final String fileName = "d:/Java/Java3/src/main/java/Lesson_2/DZ_update.txt";

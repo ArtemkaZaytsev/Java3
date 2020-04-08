@@ -7,7 +7,6 @@ public class Methods {
     private static Connection connection;
     private static Statement stmt;
 
-
     public static void main (String[] args) throws SQLException {
 
         try {
@@ -82,8 +81,6 @@ public class Methods {
         System.out.println("Данные удалены");
 
     }
-
-
 
     public static void disconnect() {
          try {
