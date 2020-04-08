@@ -21,8 +21,6 @@ public class  AutomaticInsertData {
 
         insertTab("students", fileName);
 
-//        selectTab("name", "students");// 4
-
         disconnect();
     }
 
@@ -46,16 +44,6 @@ public class  AutomaticInsertData {
         i++;
 
     }
-
-
-    public static void selectTab (String column, String nameTab) throws SQLException {
-
-        ResultSet rs = stmt.executeQuery("SELECT " + column + " FROM " + nameTab + " ;");
-        while(rs.next()) {
-            System.out.println(rs.getString(column));
-        }
-    }
-
 
     public static void disconnect() {
         try {

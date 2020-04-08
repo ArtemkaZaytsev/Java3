@@ -10,9 +10,7 @@ public class Methods {
 
         try {
             connect();
-        }catch (ClassNotFoundException e){
-            e.printStackTrace();
-        }catch (SQLException e){
+        }catch (ClassNotFoundException | SQLException e){
             e.printStackTrace();
         }
 
