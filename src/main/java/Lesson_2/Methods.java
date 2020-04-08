@@ -3,7 +3,6 @@ package Lesson_2;
 import java.sql.*;
 
 public class Methods {
-
     private static Connection connection;
     private static Statement stmt;
 
